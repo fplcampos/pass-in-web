@@ -7,8 +7,6 @@ export function Header() {
             <img src={nlwUniteIcon} />
 
             <nav className='flex items-center gap-5'>
-                <a href='' className='text-sm font-medium text-zinc-300'>Eventos</a>
-                <a href='' className='text-sm font-medium'>Participantes</a>
                 <NavLinks href="/eventos">Eventos</NavLinks>
                 <NavLinks href="/participantes">Participantes</NavLinks>
             </nav>
